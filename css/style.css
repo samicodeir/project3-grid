@@ -573,3 +573,9 @@ img {
     padding: 1.5rem 0.5rem;
   }
 }
+
+@supports not (background-attachment: fixed;) {
+  .header-hero {
+    background-attachment: scroll;
+  }
+}
