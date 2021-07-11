@@ -574,7 +574,7 @@ img {
   }
 }
 
-@supports not (background-attachment: fixed;) {
+@supports not (background-attachment: fixed) {
   .header-hero {
     background-attachment: scroll;
   }
